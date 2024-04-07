@@ -1,0 +1,20 @@
+.chat-message-input {
+  width: 100%;
+  max-height: 100px;
+  min-height: 1rem;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 0.5rem;
+  padding: 0.25rem 0.5rem 0.25rem;
+  line-height: 1.5;
+  overflow-y: auto;
+}
+
+.chat-message-send-button {
+  width: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 32px;
+  font-size: 1.25rem;
+  flex-shrink: 0;
+}

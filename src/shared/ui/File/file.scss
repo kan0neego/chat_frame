@@ -1,0 +1,70 @@
+.file-list {
+  display: table;
+  width: 100%;
+}
+
+.file-list__file {
+  display: inline-flex;
+  align-items: center;
+  width: 100%;
+  margin-top: 8px;
+}
+
+.file-list__file__icon {
+  display: inline-flex;
+  align-items: center;
+  line-height: 0;
+  text-align: center;
+  font-size: 23px;
+}
+
+.file-list__file__name {
+  font-size: 14px;
+  line-height: 1.5;
+  display: inline-block;
+  text-align: center;
+  padding: 0 8px;
+  vertical-align: middle;
+}
+
+.file-list__file__remove-button {
+  width: 24px;
+  height: 20px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  border: none;
+  padding: 0;
+  margin-left: auto;
+  border-radius: 4px;
+  cursor: pointer;
+
+  &:hover {
+    color: #ff4d4f;
+    background-color: rgba(0, 0, 0, 0.06);
+  }
+}
+
+.file-list__file__remove-button__icon {
+  display: inline-flex;
+  font-size: 14px;
+}
+
+.file-list--disabled > * > * {
+  cursor: auto;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.file-attachment {
+  width: 32px;
+  height: 32px;
+  font-size: calc(1rem + 0.50rem);
+  display: flex;
+  padding: 0.25rem 0.50rem;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+
